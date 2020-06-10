@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Buy">
+    <children>
+        <AnchorPane layoutY="99.0" prefHeight="301.0" prefWidth="700.0" style="-fx-background-color: #00ff14;">
+            <children>
+                <ImageView fx:id="imageButtonHome1881" fitHeight="224.0" fitWidth="438.0" layoutX="131.0" layoutY="68.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@assets/prydSYdohcoi.jpg" />
+                    </image>
+                </ImageView>
+                <Button fx:id="authSigInButton136" layoutX="284.0" layoutY="139.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="132.0" style="-fx-background-color: #000000;" text="Вытащить" textFill="#26ff00">
+                    <font>
+                        <Font name="System Bold" size="18.0" />
+                    </font>
+                </Button>
+            </children>
+        </AnchorPane>
+        <Label layoutX="203.0" prefHeight="96.0" prefWidth="287.0" style="-fx-background-color: #000000;" text="Рыбалка" textFill="#00ff0d">
+            <font>
+                <Font name="System Bold Italic" size="64.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
